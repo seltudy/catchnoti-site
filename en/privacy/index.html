@@ -29,7 +29,7 @@
 <h2>At a glance</h2>
 <ul>
 <li>Your notification history is stored only on this iPhone. CatchNoti never sends it anywhere, and Seltudy can't see it.</li>
-<li>CatchNoti has no accounts, ads, tracking, or analytics tools.</li>
+<li>CatchNoti has no accounts or analytics tools. The free version shows Google ads, but your notifications are never used for ads.</li>
 <li>The only personal information Seltudy receives is email you send us.</li>
 </ul>
 </section>
@@ -44,15 +44,34 @@
 <p>Face ID and Touch ID for App Lock are handled by iOS. CatchNoti never receives that information.</p>
 
 <h2>2. Network requests CatchNoti makes</h2>
-<p>CatchNoti makes only two kinds of requests over the internet. Both go straight to Apple, not through Seltudy.</p>
+<p>CatchNoti makes only three kinds of requests over the internet. None go through Seltudy: icon lookups and purchases go to Apple, and ads come from Google.</p>
 <dl>
 <dt>App icons</dt>
 <dd>To show an app's icon, CatchNoti sends that app's bundle ID and a country code to Apple's app search (itunes.apple.com). Notification content is never sent. Turn off Settings › General › Download App Icons to stop these requests.</dd>
+<dt>Ads (free version)</dt>
+<dd>CatchNoti gets the ads shown between chats and between notifications from Google. Notification content, your app list, and searches are never sent. See section 3.</dd>
 <dt>In-app purchase</dt>
 <dd>The App Store handles buying and restoring CatchNoti Pro. Seltudy doesn't receive the buyer's name, contact details, or payment information.</dd>
 </dl>
 
-<h2>3. Personal information Seltudy receives: support email</h2>
+<h2>3. Ads in the free version and personalized ads</h2>
+<p>The free version shows Google AdMob ads between chats and between notifications. Google chooses and serves the ads, and Seltudy can't tell who saw which ad. With CatchNoti Pro, no more ads are loaded, and the ads SDK isn't started after that.</p>
+<dl>
+<dt>What Google receives</dt>
+<dd>Your IP address (used to estimate an approximate location), the advertising identifier and app- or developer-scoped device identifiers, the ads you see and tap, and performance data such as app launch time, plus crash logs. These follow Google's data disclosure guidance.</dd>
+<dt>What is never sent</dt>
+<dd>Notification content, the list of apps that sent notifications, and your searches are never included in ad requests.</dd>
+<dt>Personalized ads</dt>
+<dd>After setup, CatchNoti asks for permission to track. If you allow it, Google uses the advertising identifier and your activity in other apps and websites to pick ads that match your interests. If you don't, you see non-personalized ads in the same places.</dd>
+<dt>How to opt out</dt>
+<dd>Turn off CatchNoti in iPhone Settings › Privacy &amp; Security › Tracking to stop use of the advertising identifier. Where consent is required, such as in Europe, you choose in Google's consent form at first and can change it anytime in CatchNoti's Settings › Ad Privacy Options.</dd>
+<dt>Google's privacy practices</dt>
+<dd>Google handles this information under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/partner-sites">how Google uses information from partner apps</a>.</dd>
+<dt>Transfer outside Korea</dt>
+<dd>When ads are requested, this information is sent over the network to Google LLC (in the United States and other countries where Google operates data centers). It's used to show and measure ads and to prevent invalid clicks, and kept under Google's policies. Pro removes ad requests entirely; turning off tracking only limits what's used for personalized ads.</dd>
+</dl>
+
+<h2>4. Personal information Seltudy receives: support email</h2>
 <p>When you email us, Seltudy receives that email. This is the only personal information Seltudy handles.</p>
 <dl>
 <dt>Purpose</dt>
@@ -84,25 +103,25 @@
 <dd>If you don't want this transfer, don't email us. We then can't answer your question.</dd>
 </dl>
 
-<h2>4. Usage statistics and crash reports</h2>
+<h2>5. Usage statistics and crash reports</h2>
 <p>If Share With App Developers is on in iPhone Settings › Privacy &amp; Security › Analytics &amp; Improvements, Apple shares crash reports and usage statistics with Seltudy in a form that doesn't identify you. You can turn this off anytime.</p>
 
-<h2>5. Your rights</h2>
+<h2>6. Your rights</h2>
 <ul>
 <li>You can ask to see, correct, or delete the personal information in your emails, or to stop its processing, at any time. Email us and we'll handle it without delay. A legal representative or someone you authorize can also ask on your behalf.</li>
 <li>Seltudy can't see the records on your iPhone. You can view and delete them in CatchNoti.</li>
 </ul>
 
-<h2>6. Children under 14</h2>
+<h2>7. Children under 14</h2>
 <p>Seltudy doesn't knowingly collect personal information from children under 14. If we learn an email came from a child, we confirm consent from a legal guardian or, if we can't, delete it without delay.</p>
 
-<h2>7. How information is protected</h2>
+<h2>8. How information is protected</h2>
 <ul>
 <li>Records on your iPhone are stored in CatchNoti's app storage, which iOS Data Protection protects. With App Lock on, CatchNoti asks for Face ID or your device passcode when it opens.</li>
 <li>Support email is kept in an email account that only Seltudy's representative can access.</li>
 </ul>
 
-<h2>8. Privacy officer</h2>
+<h2>9. Privacy officer</h2>
 <p>Our privacy officer handles questions, access requests, and complaints about personal information.</p>
 <dl>
 <dt>Name</dt>
@@ -111,7 +130,7 @@
 <dd><a href="mailto:seltudy.contact@gmail.com">seltudy.contact@gmail.com</a></dd>
 </dl>
 
-<h2>9. Getting help</h2>
+<h2>10. Getting help</h2>
 <p>If you're in Korea and need help with a privacy issue, you can also contact:</p>
 <ul>
 <li>Personal Information Dispute Mediation Committee: <a href="tel:1833-6972">1833-6972</a>, <a href="https://www.kopico.go.kr">kopico.go.kr</a></li>
@@ -120,7 +139,7 @@
 <li>Korean National Police Agency: <a href="tel:182">182</a>, <a href="https://ecrm.police.go.kr">ecrm.police.go.kr</a></li>
 </ul>
 
-<h2>10. Changes to this policy</h2>
+<h2>11. Changes to this policy</h2>
 <p>If we change this policy, we'll post the new version on this page with its effective date.</p>
 <p>Effective date: October 29, 2026</p>
 
