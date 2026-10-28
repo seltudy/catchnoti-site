@@ -8,8 +8,6 @@
   --border: #dce4ee;
   --link: #0a6fbf;
   --button: #0a6fbf;
-  --todo-bg: #fff1b8;
-  --todo-text: #3a2e00;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,8 +18,6 @@
     --muted: #9aa6b2;
     --border: #2d343c;
     --link: #5ab0f2;
-    --todo-bg: #5a4a00;
-    --todo-text: #fff1b8;
   }
 }
 
@@ -217,12 +213,6 @@ dd {
   margin-top: 36px;
 }
 
-.todo {
-  padding: 0 4px;
-  background: var(--todo-bg);
-  color: var(--todo-text);
-  border-radius: 4px;
-}
 
 .bottom {
   padding-top: 16px;
